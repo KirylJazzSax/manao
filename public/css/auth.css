@@ -1,0 +1,12 @@
+form {
+    max-width: 5em;
+    display: grid;
+    row-gap: 1em;
+    margin-bottom: 1em;
+}
+
+#errors {
+    margin-bottom: 1em;
+    display: grid;
+    row-gap: 0.5em;
+}

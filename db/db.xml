@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<db>
+    <users>
+        <user>
+            <id>1</id>
+            <name>Kiryl</name>
+            <login>Kiryl</login>
+            <email>some@mail.ru</email>
+            <password>$2y$10$SBZoMtmNUL0FuAbNjFllkOc.GuLRCe/vxy5dAurX7CrenJ0/Gk3iW</password>
+        </user>
+        <user>
+            <id>2</id>
+            <name>Vasia</name>
+            <login>Vasia</login>
+            <email>new@mail.ru</email>
+            <password>$2y$10$SBZoMtmNUL0FuAbNjFllkOc.GuLRCe/vxy5dAurX7CrenJ0/Gk3iW</password>
+        </user>
+    </users>
+    <auth_users>
+
+    </auth_users>
+</db>

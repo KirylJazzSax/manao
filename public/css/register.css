@@ -1,0 +1,15 @@
+form {
+    max-width: 5em;
+    display: grid;
+    row-gap: 1em;
+    margin-bottom: 1em;
+}
+
+#validation-result {
+    display: grid;
+    row-gap: 0.2em;
+    color: red;
+}
+#response {
+    margin-bottom: 1em;
+}
