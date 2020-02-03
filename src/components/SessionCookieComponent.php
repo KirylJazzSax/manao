@@ -20,10 +20,15 @@ class SessionCookieComponent
 
     public function setUserCookieSession($user, $hash)
     {
-        $_SESSION['idUserSession'] = $hash;
-        $_SESSION['user'] = $user->login;
-        setcookie('hash', $hash, time() + 3600);
-        setcookie('user', $user->login, time() + 3600);
+        $login = [(string)$user->login][0];
+
+        if ($_COOKIE['hash'] != $hash && $_SESSION['idUserSession'] != $hash) {
+            $_SESSION['idUserSession'] = $hash;
+            $_SESSION['user'] = $login;
+            setcookie('hash', $hash, time() + 3600);
+            setcookie('user', $login, time() + 3600);
+        }
+
     }
 
     public function isUserLoggedWithSessionCookie()
